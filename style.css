@@ -144,4 +144,49 @@
     height: auto;
   }
   
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 1em;
+  }
+ 
+  @media screen and (max-width: 768px) {
+    .contenedor {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    header h1 {
+      font-size: 2em;
+    }
+  
+    .cta-button a {
+      font-size: 1em;
+      padding: 12px 25px;
+    }
+  }
   
