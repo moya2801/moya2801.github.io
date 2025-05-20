@@ -169,7 +169,7 @@
     padding: 25px;
     font-size: 1em;
   }
-/* Botón modo oscuro */
+
 .dark-toggle {
   position: fixed;
   top: 15px;
@@ -194,7 +194,6 @@ body.dark-mode .dark-toggle {
   color: #fff;
 }
 
-/* Botón "ver más" */
 .ver-mas-container {
   text-align: center;
   margin: 40px 0;
@@ -224,7 +223,6 @@ body.dark-mode .btn-ver-mas:hover {
   background: #222;
 }
 
-/* Texto extra */
 .texto-extra {
   display: none;
   max-width: 800px;
@@ -237,7 +235,6 @@ body.dark-mode .texto-extra {
   color: #ddd;
 }
 
-/* Modo oscuro general */
 body.dark-mode {
   background-color: #121212;
   color: #f0f0f0;

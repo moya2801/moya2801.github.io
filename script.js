@@ -1,4 +1,3 @@
-
 document.getElementById("darkModeToggle").addEventListener("click", Modo);
 
 function Modo() {
